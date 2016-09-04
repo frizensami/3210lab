@@ -1,0 +1,145 @@
+Performance for MM1 (Parallel)
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 1 threads
+
+ Performance counter stats for './mm1 1000 1':
+
+        65,928,301      cache-references                                            
+         7,815,969      cache-misses              #   11.855 % of all cache refs    
+    26,840,509,435      cycles                                                      
+    59,187,374,759      instructions              #    2.21  insns per cycle        
+
+       7.878984743 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 2 threads
+
+ Performance counter stats for './mm1 1000 2':
+
+        66,219,327      cache-references                                            
+         4,547,820      cache-misses              #    6.868 % of all cache refs    
+    26,994,703,850      cycles                                                      
+    59,193,408,016      instructions              #    2.19  insns per cycle        
+
+       4.064721277 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 4 threads
+
+ Performance counter stats for './mm1 1000 4':
+
+        66,592,484      cache-references                                            
+         2,031,271      cache-misses              #    3.050 % of all cache refs    
+    26,522,283,978      cycles                                                      
+    59,205,464,373      instructions              #    2.23  insns per cycle        
+
+       2.045823276 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 8 threads
+
+ Performance counter stats for './mm1 1000 8':
+
+        69,489,545      cache-references                                            
+         2,335,172      cache-misses              #    3.360 % of all cache refs    
+    52,168,839,173      cycles                                                      
+    59,257,669,861      instructions              #    1.14  insns per cycle        
+
+       2.138930075 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 16 threads
+
+ Performance counter stats for './mm1 1000 16':
+
+       130,798,911      cache-references                                            
+         2,892,698      cache-misses              #    2.212 % of all cache refs    
+    52,808,592,358      cycles                                                      
+    59,205,047,861      instructions              #    1.12  insns per cycle        
+
+       2.078305507 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 32 threads
+
+ Performance counter stats for './mm1 1000 32':
+
+       137,525,033      cache-references                                            
+         3,476,686      cache-misses              #    2.528 % of all cache refs    
+    53,348,474,451      cycles                                                      
+    59,209,093,765      instructions              #    1.11  insns per cycle        
+
+       2.091323693 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 32 threads
+
+ Performance counter stats for './mm1 1000 32':
+
+       132,659,559      cache-references                                            
+         3,336,574      cache-misses              #    2.515 % of all cache refs    
+    53,121,051,469      cycles                                                      
+    59,208,485,490      instructions              #    1.11  insns per cycle        
+
+       2.087433429 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 16 threads
+
+ Performance counter stats for './mm1 1000 16':
+
+       124,039,896      cache-references                                            
+         2,400,094      cache-misses              #    1.935 % of all cache refs    
+    52,883,005,918      cycles                                                      
+    59,206,217,422      instructions              #    1.12  insns per cycle        
+
+       2.147586044 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 8 threads
+
+ Performance counter stats for './mm1 1000 8':
+
+        83,596,796      cache-references                                            
+         1,917,869      cache-misses              #    2.294 % of all cache refs    
+    52,050,558,848      cycles                                                      
+    59,259,173,669      instructions              #    1.14  insns per cycle        
+
+       2.062534867 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 4 threads
+
+ Performance counter stats for './mm1 1000 4':
+
+        67,028,177      cache-references                                            
+         1,761,483      cache-misses              #    2.628 % of all cache refs    
+    26,312,964,381      cycles                                                      
+    59,198,754,872      instructions              #    2.25  insns per cycle        
+
+       2.028531200 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 2 threads
+
+ Performance counter stats for './mm1 1000 2':
+
+        68,517,521      cache-references                                            
+         4,485,438      cache-misses              #    6.546 % of all cache refs    
+    27,021,573,941      cycles                                                      
+    59,195,671,008      instructions              #    2.19  insns per cycle        
+
+       4.039556548 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 1 threads
+
+ Performance counter stats for './mm1 1000 1':
+
+        69,263,240      cache-references                                            
+        11,083,353      cache-misses              #   16.002 % of all cache refs    
+    27,749,167,841      cycles                                                      
+    59,187,545,258      instructions              #    2.13  insns per cycle        
+
+       8.130335218 seconds time elapsed
+

@@ -1,0 +1,13 @@
+Performance for MM1 (Parallel)
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 1 threads
+
+ Performance counter stats for './mm1 1000 1':
+
+        70,791,354      cache-references                                            
+         9,128,469      cache-misses              #   12.895 % of all cache refs    
+    27,414,587,725      cycles                                                      
+    59,188,344,683      instructions              #    2.16  insns per cycle        
+
+       8.119761903 seconds time elapsed
+

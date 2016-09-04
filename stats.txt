@@ -1,0 +1,12 @@
+# started on Sun Sep  4 16:45:41 2016
+
+
+ Performance counter stats for './mm1 1000 1':
+
+        66,318,199      cache-references                                            
+         8,449,929      cache-misses              #   12.741 % of all cache refs    
+    26,967,788,726      cycles                                                      
+    59,187,536,262      instructions              #    2.19  insns per cycle        
+
+       7.975979080 seconds time elapsed
+
