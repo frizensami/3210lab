@@ -1,0 +1,67 @@
+======== Performance for MM1 (Parallel) - INSTRUCTIONS =============
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 2000 using 1 threads
+Matrix multiplication took 92.65 seconds
+
+ Performance counter stats for './mm1 2000 1':
+
+   305,205,777,183      cycles                   
+   472,778,393,414      instructions              #    1.55  insns per cycle        
+
+      92.757308526 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 2000 using 2 threads
+Matrix multiplication took 48.09 seconds
+
+ Performance counter stats for './mm1 2000 2':
+
+   307,108,416,974      cycles                   
+   472,801,308,654      instructions              #    1.54  insns per cycle        
+
+      48.256657488 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 2000 using 4 threads
+Matrix multiplication took 50.91 seconds
+
+ Performance counter stats for './mm1 2000 4':
+
+   507,786,699,602      cycles                   
+   472,903,173,391      instructions              #    0.93  insns per cycle        
+
+      51.080933145 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 2000 using 8 threads
+Matrix multiplication took 40.29 seconds
+
+ Performance counter stats for './mm1 2000 8':
+
+   414,065,625,967      cycles                   
+   472,877,674,922      instructions              #    1.14  insns per cycle        
+
+      40.458290711 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 2000 using 16 threads
+Matrix multiplication took 28.19 seconds
+
+ Performance counter stats for './mm1 2000 16':
+
+   292,821,938,593      cycles                   
+   472,840,544,412      instructions              #    1.61  insns per cycle        
+
+      28.364782254 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 2000 using 32 threads
+Matrix multiplication took 26.55 seconds
+
+ Performance counter stats for './mm1 2000 32':
+
+   275,692,254,846      cycles                   
+   472,853,598,464      instructions              #    1.72  insns per cycle        
+
+      26.718089500 seconds time elapsed
+

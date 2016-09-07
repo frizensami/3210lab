@@ -1,0 +1,121 @@
+======== Performance for MM1 (Parallel) - INSTRUCTIONS =============
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 1 threads
+
+ Performance counter stats for './mm1 1000 1':
+
+    30,533,045,473      cycles                   
+    59,191,957,487      instructions              #    1.94  insns per cycle        
+
+       9.278411690 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 2 threads
+
+ Performance counter stats for './mm1 1000 2':
+
+    25,963,320,795      cycles                   
+    59,198,053,788      instructions              #    2.28  insns per cycle        
+
+       4.091039881 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 4 threads
+
+ Performance counter stats for './mm1 1000 4':
+
+    30,655,557,705      cycles                   
+    59,227,573,250      instructions              #    1.93  insns per cycle        
+
+       2.989687706 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 8 threads
+
+ Performance counter stats for './mm1 1000 8':
+
+    30,764,710,779      cycles                   
+    59,198,828,364      instructions              #    1.92  insns per cycle        
+
+       3.006542299 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 16 threads
+
+ Performance counter stats for './mm1 1000 16':
+
+    26,467,572,378      cycles                   
+    59,196,754,192      instructions              #    2.24  insns per cycle        
+
+       2.593540581 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 32 threads
+
+ Performance counter stats for './mm1 1000 32':
+
+    34,903,569,952      cycles                   
+    59,205,297,919      instructions              #    1.70  insns per cycle        
+
+       3.465848454 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 32 threads
+
+ Performance counter stats for './mm1 1000 32':
+
+    33,958,880,130      cycles                   
+    59,205,152,597      instructions              #    1.74  insns per cycle        
+
+       3.353782330 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 16 threads
+
+ Performance counter stats for './mm1 1000 16':
+
+    28,078,186,095      cycles                   
+    59,198,143,358      instructions              #    2.11  insns per cycle        
+
+       2.759292192 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 8 threads
+
+ Performance counter stats for './mm1 1000 8':
+
+    30,605,679,746      cycles                   
+    59,199,625,824      instructions              #    1.93  insns per cycle        
+
+       2.990084546 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 4 threads
+
+ Performance counter stats for './mm1 1000 4':
+
+    30,654,792,491      cycles                   
+    59,223,313,481      instructions              #    1.93  insns per cycle        
+
+       2.985207843 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 2 threads
+
+ Performance counter stats for './mm1 1000 2':
+
+    28,435,978,488      cycles                   
+    59,198,846,150      instructions              #    2.08  insns per cycle        
+
+       4.483285644 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 1 threads
+
+ Performance counter stats for './mm1 1000 1':
+
+    31,080,057,804      cycles                   
+    59,190,426,557      instructions              #    1.90  insns per cycle        
+
+       9.456565851 seconds time elapsed
+

@@ -1,0 +1,67 @@
+======== Performance for MM1 (Parallel) - INSTRUCTIONS =============
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 1 threads
+Matrix multiplication took 9.52 seconds
+
+ Performance counter stats for './mm1 1000 1':
+
+    31,421,723,221      cycles                   
+    59,185,439,828      instructions              #    1.88  insns per cycle        
+
+       9.547159139 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 2 threads
+Matrix multiplication took 4.02 seconds
+
+ Performance counter stats for './mm1 1000 2':
+
+    25,712,324,921      cycles                   
+    59,190,809,433      instructions              #    2.30  insns per cycle        
+
+       4.060479856 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 4 threads
+Matrix multiplication took 2.94 seconds
+
+ Performance counter stats for './mm1 1000 4':
+
+    30,644,935,562      cycles                   
+    59,203,672,480      instructions              #    1.93  insns per cycle        
+
+       2.986848615 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 8 threads
+Matrix multiplication took 2.98 seconds
+
+ Performance counter stats for './mm1 1000 8':
+
+    30,805,642,998      cycles                   
+    59,193,181,301      instructions              #    1.92  insns per cycle        
+
+       3.027628681 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 16 threads
+Matrix multiplication took 2.50 seconds
+
+ Performance counter stats for './mm1 1000 16':
+
+    25,969,265,827      cycles                   
+    59,191,098,080      instructions              #    2.28  insns per cycle        
+
+       2.547830324 seconds time elapsed
+
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 32 threads
+Matrix multiplication took 2.96 seconds
+
+ Performance counter stats for './mm1 1000 32':
+
+    30,704,118,148      cycles                   
+    59,197,467,393      instructions              #    1.93  insns per cycle        
+
+       3.004615822 seconds time elapsed
+

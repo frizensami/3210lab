@@ -1,0 +1,12 @@
+======== Performance for MM1 (Parallel) - INSTRUCTIONS =============
+Usage: ./mm1 <size> <threads>
+Matrix multiplication of size 1000 using 1 threads
+Matrix multiplication took 9.39 seconds
+
+ Performance counter stats for './mm1 1000 1':
+
+    30,933,032,517      cycles                   
+    59,185,637,265      instructions              #    1.91  insns per cycle        
+
+       9.413288615 seconds time elapsed
+
